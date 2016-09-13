@@ -21,7 +21,7 @@ rpm –qa | grep gcc
 ### Nginx installation
 #### down nginx tarball
 here we chose the stable version：
-http://nginx.org/download/nginx-1.5.6.tar.gz
+`http://nginx.org/download/nginx-1.5.6.tar.gz`
 #### Installation
 configure arguments: --prefix=/data/websvr/nginx-1.5.6 --with-http_ssl_module --with-pcre --with-http_realip_module
 make && make install
