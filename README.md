@@ -1,2 +1,2 @@
-# nginx-docs
+# Nginx Articles
 nginx docs
