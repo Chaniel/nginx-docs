@@ -1,9 +1,3 @@
----
-title: nginx quick starter
-date: 2015-09-06 17:18:49
-tags: nginx
----
-
 # Nginx quick starter(http server)
 
 ## Brief introduction
@@ -216,5 +210,6 @@ you need to recompile the nginx bin file
 # make 
 # make install
 ```
-## License
-cc4
+## License 
+署名-非商业性使用-相同方式共享 
+CC BY-NC-SA
