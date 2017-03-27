@@ -211,5 +211,6 @@ you need to recompile the nginx bin file
 # make install
 ```
 ## License 
-署名-非商业性使用-相同方式共享 
+Copyright <2013> <qu yongqiang>
 CC BY-NC-SA
+https://creativecommons.org/licenses/by-nc-sa/4.0/
