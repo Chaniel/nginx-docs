@@ -216,3 +216,5 @@ you need to recompile the nginx bin file
 # make 
 # make install
 ```
+## License
+cc4
