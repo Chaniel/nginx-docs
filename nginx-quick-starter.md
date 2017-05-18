@@ -188,21 +188,23 @@ net.nf_conntrack_max = 655360
 then save the configuration use command : sysctl -p
 
 ## Nginx configuration optimization
-
+```
 use epoll
-after linux 2.6 kernel can support this feature.
+# after linux 2.6 kernel can support this feature.
 
 connection optimization
 worker_connections 65535
 keepalive_timeout 60
-client_header_buffer-size 8k (use “getconf PAGESIZE” command to get the page size)
+client_header_buffer-size 8k 
+#(use “getconf PAGESIZE” command to get the page size)
 worker_rlimit_nofile 2000000
-
+```
 ## nginx security configuration
 close server_tokens
 at http context add 
-` server_tokens off;`
-
+```
+server_tokens off;
+```
 close autoindex and ssi module
 you need to recompile the nginx bin file
 ```
